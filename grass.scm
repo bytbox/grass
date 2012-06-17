@@ -1,6 +1,3 @@
-#!/usr/bin/env guile
-!#
-
 (load "util/boolean.scm")
 (load "util/error.scm")
 (load "util/functional.scm")

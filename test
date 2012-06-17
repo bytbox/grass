@@ -1,0 +1,2 @@
+#!/bin/sh
+guile $(dirname $0)/test.scm
