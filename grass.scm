@@ -7,6 +7,7 @@
 (load "util/io.scm")
 
 ;;; TODO nice error handling
+;;; TODO tests
 
 ;;; Constraint handling
 
@@ -51,8 +52,13 @@
 ;; Aliases for commonly used methods.
 (define _ grass:lift)
 
+; TODO the puzzle here is to make sure we can run through all the proofs
+; without execution. This means the grass functions being called to construct
+; the program must not do any actual work themselves, but simply be creating a
+; data structure with all necessary information behind the scenes.
+
+
 (let ((v (_ 'hi)))
   (displayln v)
   (displayln (grass:check-constraints v)))
-
 
