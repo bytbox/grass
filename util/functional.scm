@@ -25,5 +25,8 @@
   (lambda (b . rest) (apply f (cons a (cons b rest)))))
 
 ; uncurry
-(define (uncurry f a b) ((f a) b))
+
+; zip
+
+; unzip
 

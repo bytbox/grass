@@ -7,6 +7,8 @@ Development is done with guile.
 Interface
 ---------
 
+### Data Representation
+
 A grass value is structured as follows
 
     (val type . constraints)
